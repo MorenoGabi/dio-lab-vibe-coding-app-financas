@@ -1,27 +1,95 @@
-#  App de Finanças Pessoais com Vibe Coding
+# App de Finanças Pessoais com Vibe Coding
 
-PDR refinado no Copilot Web:
+Projeto desenvolvido utilizando Vibe Coding, com refinamento de requisitos no Copilot Web e geração da aplicação utilizando o Lovable.
 
-````
+## Resultado Final
+
+### Aplicação
+
+https://trilha-das-finan.lovable.app
+
+### Preview
+
+![Conta Comigo](https://github.com/user-attachments/assets/12b814ce-0d26-42da-a8c6-cc066b3a4586)
+
+---
+
+# Resumo do Aplicativo
+
+## Conta Comigo
+
+Aplicativo de finanças pessoais com foco em simplicidade, acessibilidade e educação financeira.
+
+O principal diferencial é a interação por meio de linguagem natural, permitindo que o usuário registre e consulte informações financeiras como se estivesse conversando com um assistente pessoal.
+
+### Principais Funcionalidades
+
+- Dashboard financeiro com visão consolidada das finanças.
+- Registro de receitas e despesas através de linguagem natural.
+- Categorização automática de transações.
+- Histórico financeiro completo.
+- Criação e acompanhamento de metas financeiras.
+- Relatórios financeiros simplificados.
+- Agente Financeiro Inteligente com recomendações personalizadas.
+- Interface baseada em Design Universal e acessibilidade.
+
+---
+
+# Processo de Desenvolvimento
+
+## Refinamento do PRD
+
+Antes da geração da aplicação, o PRD foi refinado utilizando o Copilot Web para garantir que os requisitos do produto estivessem claros e bem estruturados.
+
+## Interações com o Lovable
+
+### Prompt Inicial
+
+```text
+Crie um APP de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
+```
+
+### Correções
+
+```text
+Corrigir erros {Reply "continuar" and I'll fix these errors, build the missing pages (dashboard, chat, history, goals, reports and settings)}
+```
+
+---
+
+# Prompt Final Utilizado (PRD)
+
+<details>
+<summary>Clique para expandir o PRD completo</summary>
+
+```txt
 # PRD - Agente Financeiro Conversacional
 
 ## Visão do Produto
+
 Criar um aplicativo de finanças pessoais que permita aos usuários registrar, consultar e analisar sua vida financeira através de conversas em linguagem natural.
+
 O aplicativo deve eliminar a necessidade de formulários complexos, categorizando automaticamente as informações fornecidas pelo usuário e oferecendo recomendações financeiras personalizadas.
 
 ### Proposta de Valor
+
 Gerenciar finanças deve ser tão simples quanto conversar com um amigo.
+
 Em vez de preencher planilhas ou navegar por múltiplas telas, o usuário apenas conversa com o aplicativo.
 
 Exemplos:
+
 - "Gastei R$ 45 no almoço."
 - "Recebi meu salário de R$ 4.500."
 - "Quanto gastei com transporte este mês?"
 - "Quero economizar R$ 2.000 para minhas férias."
+
 ---
 
 ## Problema
+
 Muitas pessoas abandonam o controle financeiro porque:
+
 - Registrar gastos exige muito esforço manual.
 - A categorização das despesas é trabalhosa.
 - Os relatórios são difíceis de compreender.
@@ -29,43 +97,57 @@ Muitas pessoas abandonam o controle financeiro porque:
 - Falta orientação prática para melhorar hábitos financeiros.
 
 Como consequência, os usuários não mantêm consistência no acompanhamento das finanças e acabam perdendo visibilidade sobre seus gastos.
+
 ---
 
 ## Objetivo
+
 Permitir que qualquer pessoa organize suas finanças através de conversas simples, aumentando a frequência de uso e reduzindo o esforço necessário para registrar receitas e despesas.
+
 ---
 
 ## Público-Alvo
 
 ### Primário
+
 Pessoas iniciantes em educação financeira que:
+
 - Nunca utilizaram aplicativos financeiros.
 - Consideram planilhas complicadas.
 - Desejam entender para onde seu dinheiro está indo.
 
 ### Secundário
+
 Usuários que já usam apps financeiros, mas buscam uma experiência mais rápida e intuitiva.
+
 ---
 
 ## Princípios do Produto
 
 ### Simplicidade
+
 Toda interação deve ser simples, direta e compreensível para iniciantes.
 
 ### Educação Financeira
+
 O produto deve ajudar o usuário a desenvolver hábitos financeiros melhores ao longo do tempo.
 
 ### Design Universal
+
 O produto deve seguir os princípios de Design Universal, garantindo que o maior número possível de pessoas consiga utilizá-lo de forma eficiente, confortável e independente, independentemente de idade, familiaridade com tecnologia ou condições físicas, cognitivas e sensoriais.
 
 A experiência deve ser inclusiva por padrão, sem necessidade de versões separadas para diferentes perfis de usuários.
+
 ---
 
 ## MVP
+
 O MVP deve validar se usuários conseguem registrar e consultar informações financeiras utilizando apenas linguagem natural.
 
 ### Hipótese Principal
+
 Se o registro financeiro ocorrer por conversa, os usuários registrarão mais transações do que fariam em aplicativos tradicionais.
+
 ---
 
 ## Funcionalidades Principais
@@ -85,6 +167,7 @@ Campos extraídos automaticamente:
 - Categoria
 - Data
 - Descrição
+
 ---
 
 ### 2. Categorização Automática
@@ -319,257 +402,26 @@ O sistema responde em linguagem natural e apresenta indicadores visuais.
 - Arquitetura preparada para expansão futura.
 - Suporte para novos agentes, categorias e funcionalidades financeiras.
 
-````
-
-## Interações com o Loveble
-- Crie um APP de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): {PDR}
-- Corrigir erros {Reply "continuar" and I'll fix these errors, build the missing pages (dashboard, chat, history, goals, reports and settings)}
-
-Resultado final no Loveble: https://trilha-das-finan.lovable.app
-<img width="1887" height="852" alt="image" src="https://github.com/user-attachments/assets/12b814ce-0d26-42da-a8c6-cc066b3a4586" />
-
-
-## Funcionalidades do App Conta Comigo:
-
-# Conta Comigo
-
-Aplicativo de finanças pessoais com foco em simplicidade, acessibilidade e educação financeira. O principal diferencial é a interação por meio de linguagem natural, permitindo que o usuário registre e consulte informações financeiras como se estivesse conversando com um assistente pessoal.
-
-## Visão Geral
-
-O Conta Comigo foi criado para ajudar pessoas a organizarem suas finanças sem depender de planilhas complexas ou processos manuais demorados.
-
-A experiência é centrada em conversação, permitindo registrar receitas, despesas e acompanhar objetivos financeiros de forma intuitiva e acessível.
-
----
-
-## Principais Funcionalidades
-
-### Dashboard Financeiro
-
-O painel inicial apresenta um resumo da situação financeira do usuário em tempo real.
-
-Indicadores disponíveis:
-
-- Saldo atual
-- Total recebido no mês
-- Total gasto no mês
-- Categoria com maior gasto
-- Resumo financeiro consolidado
-
-Benefícios:
-
-- Visão rápida da saúde financeira
-- Acompanhamento contínuo dos resultados
-- Redução da necessidade de análises complexas
-
----
-
-### Registro Conversacional
-
-O usuário pode registrar movimentações financeiras através de linguagem natural.
-
-Exemplos:
-
-```text
-Gastei R$ 50 no almoço.
-Recebi R$ 500 de um trabalho.
-Paguei R$ 120 de energia.
+--
 ```
 
-O sistema interpreta automaticamente:
+</details>
 
-- Valor
-- Tipo da transação (receita ou despesa)
-- Categoria
-- Data
-- Descrição
 
-Objetivo:
+# Reflexão Sobre o Processo
 
-Eliminar formulários extensos e tornar o registro financeiro mais rápido e natural.
+## O que funcionou bem?
 
----
+O refinamento prévio do PRD no Copilot ajudou bastante na geração da aplicação.
+Como os créditos gratuitos do Lovable acabaram rapidamente, ter um documento bem estruturado permitiu obter um resultado consistente logo nas primeiras interações.
 
-### Categorização Automática
+## O que não funcionou como esperado?
 
-As movimentações são classificadas automaticamente em categorias como:
+Esperava conseguir realizar mais interações gratuitas dentro do Lovable.
+Apesar dessa limitação, as interações realizadas foram suficientes para entender melhor o processo de desenvolvimento utilizando Vibe Coding.
 
-- Alimentação
-- Transporte
-- Moradia
-- Saúde
-- Educação
-- Lazer
-- Compras
-- Contas
-- Investimentos
-- Outros
+## O que aprendi sobre conversar com IAs?
 
-Benefícios:
-
-- Menos trabalho manual
-- Melhor organização financeira
-- Relatórios mais precisos
-
----
-
-### Histórico Financeiro
-
-Permite consultar todas as movimentações registradas.
-
-Informações exibidas:
-
-- Descrição da movimentação
-- Categoria
-- Data
-- Valor
-- Tipo (entrada ou saída)
-
-Objetivos:
-
-- Rastreabilidade financeira
-- Consulta rápida de gastos e receitas
-- Histórico consolidado de transações
-
----
-
-### Metas Financeiras
-
-Possibilita criar e acompanhar objetivos financeiros.
-
-Exemplos:
-
-- Reserva de emergência
-- Viagem
-- Compra de imóvel
-- Compra de veículo
-
-Recursos disponíveis:
-
-- Valor alvo
-- Valor acumulado
-- Percentual de progresso
-- Barra visual de evolução
-
-Benefícios:
-
-- Incentiva hábitos financeiros saudáveis
-- Facilita o acompanhamento de objetivos de longo prazo
-
----
-
-### Relatórios Financeiros
-
-Área dedicada à análise financeira do usuário.
-
-Indicadores previstos:
-
-- Evolução mensal das receitas
-- Evolução mensal das despesas
-- Distribuição dos gastos por categoria
-- Progresso das metas financeiras
-
-Objetivos:
-
-- Apoiar tomada de decisão
-- Facilitar a compreensão dos hábitos financeiros
-- Promover educação financeira
-
----
-
-### Agente Financeiro Inteligente
-
-Assistente responsável por interpretar informações e fornecer orientação financeira.
-
-Exemplos de recomendações:
-
-```text
-Você gastou mais com alimentação neste mês.
-Sua despesa com transporte aumentou em relação ao mês anterior.
-Nesse ritmo você atingirá sua meta em 4 meses.
-```
-
-Objetivos:
-
-- Promover educação financeira
-- Identificar padrões de comportamento
-- Sugerir oportunidades de economia
-
----
-
-## Experiência do Usuário
-
-O aplicativo foi projetado para atender tanto iniciantes quanto usuários mais experientes.
-
-Princípios adotados:
-
-- Linguagem simples e acessível
-- Navegação intuitiva
-- Interface limpa e objetiva
-- Baixa carga cognitiva
-- Mobile First
-- Design Universal
-- Acessibilidade digital
-
----
-
-## Design Universal
-
-O Conta Comigo foi concebido seguindo princípios de Design Universal para garantir uma experiência inclusiva para o maior número possível de pessoas.
-
-Diretrizes aplicadas:
-
-- Alto contraste visual
-- Tipografia legível
-- Navegação simplificada
-- Compatibilidade com leitores de tela
-- Uso intuitivo para iniciantes
-- Interface adaptada para diferentes dispositivos
-- Informações apresentadas de forma clara e objetiva
-
----
-
-## Estrutura da Aplicação
-
-### Início
-
-Visão geral da situação financeira atual.
-
-### Conversar
-
-Registro e consulta financeira através de linguagem natural.
-
-### Histórico
-
-Consulta de transações registradas.
-
-### Metas
-
-Criação e acompanhamento de objetivos financeiros.
-
-### Relatórios
-
-Análises e indicadores financeiros.
-
-### Ajustes
-
-Configurações da conta e personalização da experiência.
-
----
-
-## Objetivo do Produto
-Tornar o controle financeiro tão simples quanto conversar com um amigo, reduzindo a complexidade dos aplicativos tradicionais e ajudando usuários a desenvolverem hábitos financeiros mais saudáveis de forma contínua.
-
-
-## Reflaxão 
-  ### O que funcionou bem? 
-  O refinamento do PRD previamente feito no Copilot ajudou muito, pois os créditos do Loveble acabou na primeira interação
-  
-  ### O que não funcionou como o esperado?  
-  Esperava interagir mais vezes gratuitamente com o Loveble, mas as interações feitas já foram de grande valia para aprender mais sobre Vibe Codding
-  
-  ### O que aprendeu sobre conversar com IAs?
-  Aprendi que é basicamente igual a conversar com um amigo, quanto mais detalhes e clareza você dá, melhor será a interação 
-
+Aprendi que conversar com uma IA é muito semelhante a explicar um problema para outra pessoa.
+Quanto mais contexto, clareza e detalhes são fornecidos, maior tende a ser a qualidade do resultado gerado.
 
