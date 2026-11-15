@@ -1,6 +1,6 @@
 # App de Finanças Pessoais com Vibe Coding
 
-Projeto desenvolvido utilizando Vibe Coding, com refinamento de requisitos no Copilot Web e geração da aplicação utilizando o Lovable.
+Esse projeto foi desenvolvido como um Desafio de Projeto da DIO utilizando Vibe Coding, com refinamento de requisitos no Copilot Web e geração da aplicação utilizando o Lovable.
 
 ## Resultado Final
 
